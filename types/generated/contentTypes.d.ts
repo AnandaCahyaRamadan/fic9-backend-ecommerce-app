@@ -713,6 +713,8 @@ export interface ApiCategoryCategory extends Schema.CollectionType {
   };
 }
 
+<<<<<<< HEAD
+=======
 export interface ApiOrderOrder extends Schema.CollectionType {
   collectionName: 'orders';
   info: {
@@ -750,6 +752,7 @@ export interface ApiOrderOrder extends Schema.CollectionType {
   };
 }
 
+>>>>>>> 866fdf27c462623729b6fcfd260601cedc1a9659
 export interface ApiProductProduct extends Schema.CollectionType {
   collectionName: 'products';
   info: {
@@ -807,7 +810,10 @@ declare module '@strapi/types' {
       'plugin::users-permissions.role': PluginUsersPermissionsRole;
       'plugin::users-permissions.user': PluginUsersPermissionsUser;
       'api::category.category': ApiCategoryCategory;
+<<<<<<< HEAD
+=======
       'api::order.order': ApiOrderOrder;
+>>>>>>> 866fdf27c462623729b6fcfd260601cedc1a9659
       'api::product.product': ApiProductProduct;
     }
   }
